@@ -124,7 +124,7 @@ const config = {
   blog: {
     source: '', // medium | dev
     username: '', // to hide blog section, keep it empty
-    limit: , // How many posts to display. Max is 10.
+    limit: 0, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
