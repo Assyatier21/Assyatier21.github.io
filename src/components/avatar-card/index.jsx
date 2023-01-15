@@ -4,7 +4,7 @@ import LazyImage from '../lazy-image';
 
 const AvatarCard = ({ profile, loading, avatarRing, resume }) => {
   return (
-    <div className="card shadow-lg compact bg-base-100">
+    <div className="card shadow-md rounded-lg compact bg-base-100">
       <div className="grid place-items-center py-8">
         {loading || !profile ? (
           <div className="avatar opacity-90">

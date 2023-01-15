@@ -74,7 +74,7 @@ const Details = ({ profile, loading, social, github }) => {
   };
 
   return (
-    <div className="card shadow-lg compact bg-base-100">
+    <div className="card shadow-md rounded-lg compact bg-base-100">
       <div className="card-body">
         <div className="text-base-content text-opacity-60">
           {loading || !profile ? (

@@ -71,7 +71,7 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
   const renderExternalProjects = () => {
     return externalProjects.map((item, index) => (
       <a
-        className="card shadow-lg compact bg-base-100 cursor-pointer"
+        className="card shadow-md rounded-lg compact bg-base-100 cursor-pointer"
         key={index}
         href={item.link}
         onClick={(e) => {

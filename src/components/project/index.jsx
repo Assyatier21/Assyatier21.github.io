@@ -62,7 +62,7 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
   const renderProjects = () => {
     return repo.map((item, index) => (
       <a
-        className="card shadow-lg compact bg-base-100 cursor-pointer"
+        className="card shadow-md rounded-lg compact bg-base-100 cursor-pointer"
         href={item.html_url}
         key={index}
         onClick={(e) => {
@@ -127,7 +127,7 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
       <div className="col-span-1 lg:col-span-2">
         <div className="grid grid-cols-2 gap-6">
           <div className="col-span-2">
-            <div className="card compact bg-base-100 shadow bg-opacity-40">
+            <div className="card compact bg-base-100 shadow-md rounded-lg bg-opacity-40">
               <div className="card-body">
                 <div className="mx-3 flex items-center justify-between mb-2">
                   <h5 className="card-title">
