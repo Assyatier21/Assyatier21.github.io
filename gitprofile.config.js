@@ -25,7 +25,7 @@ const config = {
     email: 'muhammadsholeh.dev@gmail.com',
   },
   resume: {
-    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://drive.google.com/file/d/1QY_fR5ZAf_O8HxdYzlJzzljQNCWJ_2Ma/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Go',
@@ -142,7 +142,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'dark',
+    defaultTheme: 'business',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
