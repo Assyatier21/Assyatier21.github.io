@@ -113,13 +113,13 @@ const config = {
       link: 'https://sifalib.sifa.co.id/',
     },
     {
-      title: 'Sistem Informasi Pendidikan Berkelanjutan (SI-DILAN)',
+      title: 'Mitra Layanan Dunia Maya (MILEA)',
       description:
-        'An application is used to apply for study permits or study assignments for civil servants in hospitals. This application also provides institutional information for employees who want to continue their studies as well as scholarship information in it. This application is connected through a centralized gateway called sifa.co.id.',
+        'An application that accommodates training activities and human resource development at RSUD Siti Fatimah Provinsi Sumatera Selatan. This application focuses on developing the quality of human resources by conducting training both internally and externally from RSUD Siti Fatimah Provinsi Sumatera Selatan.',
       imageUrl: '',
-      link: 'https://dilan.sifa.co.id/',
+      link: 'https://milea.sifa.co.id/',
     },
-     {
+    {
       title: 'Sistem Informasi Pendidikan Berkelanjutan (SI-DILAN)',
       description:
         'An application is used to apply for study permits or study assignments for civil servants in hospitals. This application also provides institutional information for employees who want to continue their studies as well as scholarship information in it. This application is connected through a centralized gateway called sifa.co.id.',

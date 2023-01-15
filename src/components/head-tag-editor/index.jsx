@@ -22,7 +22,7 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
                 gtag('config', '${googleAnalytics.id}');`}
             </script>
           )}
-          <title>Portfolio{profile.name && ` of ${profile.name}`}</title>
+          <title>{profile.name && `${profile.name}`}</title>
           <meta
             name="theme-color"
             content={isDarkishTheme(theme) ? '#000000' : '#ffffff'}
@@ -32,7 +32,7 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
 
           <meta
             itemProp="name"
-            content={`Portfolio${profile.name && ` of ${profile.name}`}`}
+            content={`Portfolio${profile.name && `${profile.name}`}`}
           />
           <meta itemProp="description" content={profile.bio} />
           <meta itemProp="image" content={profile.avatar} />
