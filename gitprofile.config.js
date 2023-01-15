@@ -52,7 +52,7 @@ const config = {
   experiences: [
     {
       company: 'Tokopedia',
-      position: 'Software Engineer (Backend Developer at Seller Education)',
+      position: 'Software Engineer',
       from: 'September 2022',
       to: 'December 2022',
       companyLink: 'https://seller.tokopedia.com/edu',
@@ -113,6 +113,13 @@ const config = {
       link: 'https://sifalib.sifa.co.id/',
     },
     {
+      title: 'Sistem Informasi Pendidikan Berkelanjutan (SI-DILAN)',
+      description:
+        'An application is used to apply for study permits or study assignments for civil servants in hospitals. This application also provides institutional information for employees who want to continue their studies as well as scholarship information in it. This application is connected through a centralized gateway called sifa.co.id.',
+      imageUrl: '',
+      link: 'https://dilan.sifa.co.id/',
+    },
+     {
       title: 'Sistem Informasi Pendidikan Berkelanjutan (SI-DILAN)',
       description:
         'An application is used to apply for study permits or study assignments for civil servants in hospitals. This application also provides institutional information for employees who want to continue their studies as well as scholarship information in it. This application is connected through a centralized gateway called sifa.co.id.',
