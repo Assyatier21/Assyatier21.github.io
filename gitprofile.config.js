@@ -25,22 +25,25 @@ const config = {
     email: 'muhammadsholeh.dev@gmail.com',
   },
   resume: {
-    fileUrl: 'https://drive.google.com/file/d/1QY_fR5ZAf_O8HxdYzlJzzljQNCWJ_2Ma/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://drive.google.com/file/d/1neeup4oZNciSYGT4X4tEqT62kYchvHBL/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Go',
     'Java',
     'PHP',
     'Node.js',
-    'Laravel',
     'Echo-Framework',
+    'Laravel',
     'Bootstrap',
     'React.js',
     'Next.js',
     'MySQL',
     'PostgreSQL',
-    'GraphQL',
     'Elasticsearch',
+    'Redis',
+    'MongoDB',
+    'GraphQL',
+    'Amazon Web Services (AWS)',
     'Jenkins',
     'Git',
     'GitHub',
@@ -50,6 +53,13 @@ const config = {
     'Sonarqube',
   ],
   experiences: [
+    {
+      company: 'BuddyKu (MNC Group)',
+      position: 'Software Engineer',
+      from: 'Januari 2023',
+      to: 'Present',
+      companyLink: 'https://buddyku.com/',
+    },
     {
       company: 'Tokopedia',
       position: 'Software Engineer',
@@ -98,6 +108,13 @@ const config = {
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
+    {
+      title: 'Election BuddyKu',
+      description:
+        'Election BuddyKu is a collaborative effort between BuddyKu and MNC Media. This web-based application allows the public to participate in open voting for the president and vice president from among 16 popular candidates. This project allows the public to access the results of the voting process, ensuring transparency and accountability.',
+      imageUrl: '',
+      link: 'https://election.buddyku.com/',
+    },
     {
       title: 'Aplikasi Lelang Aset (ALEA)',
       description:
@@ -202,11 +219,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Muhammad Sholeh © 2023`,
 };
 
 export default config;
